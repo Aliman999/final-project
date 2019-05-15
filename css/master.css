@@ -1,0 +1,169 @@
+html, body{
+  width: 100%;
+
+  margin: 0px;
+  padding: 0px;
+
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+}
+body{
+  background-color: #4C4C4C;
+}
+.nav{
+    position: fixed;
+    display: flex;
+
+    width: 100%;
+    height:64px;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #1e1e1e;
+}
+.navLogo{
+  margin-left:-128px;
+}
+.navLeft{
+  position: relative;
+
+  line-height: 2;
+
+  margin-right: 4px;
+}
+.navRight{
+  position: relative;
+  line-height: 4;
+}
+
+.item{
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+
+  padding:4px 16px 4px 16px;
+
+  border:0 solid transparent;
+  border-width: 0px 0px 2px 0px;
+
+  transition: 0.25s ease;
+}
+.item:hover{
+  border-color: white;
+}
+.cart{
+  position: absolute;
+  margin-top: 6px;
+
+  height: 32px;
+  width: 32px;
+
+  border:0 solid transparent;
+
+  line-height: 1;
+  z-index: -1;
+}
+
+.dropdownshop{
+  overflow:hidden;
+  position:absolute;
+  display:none;
+
+  min-width: 160px;
+  z-index: 1;
+
+  border-left:2px solid white;
+
+  left:251px;
+}
+.dropdownshop a{
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  border:0 solid transparent;
+  border-width: 0px 0px 2px 0px;
+
+  transition: 0.5s ease;
+}
+.dropdownshop a:hover{
+  border-color: white;
+}
+
+.navLogo{
+  display:inline-block;
+  position: relative;
+  margin-top: 64px;
+  margin-left: -111px;
+}
+.logo{
+  height: 128px;
+  width: 128px;
+  z-index: 0;
+  margin-top:8px;
+  padding-right: 8px;
+}
+.footer{
+  position: absolute;
+  width: 100%;
+  height:64px;
+
+  text-align: right;
+
+  bottom:0px;
+  z-index: 1;
+}
+.copyRight{
+  margin-right:16px;
+  color:white;
+}
+.cart-items-count{
+  position: absolute;
+  color:#00adb5;
+  margin-top:-58px;
+  margin-left: 308px;
+  font-weight: 700;
+  text-shadow: -1px 2px 2px #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.active{
+  border-color: white;
+}
+
+.shadow{
+  box-shadow: -1px 2px 2px 0px #232323;
+}
+.primary{
+  background-color: #1e1e1e;
+}
+.primaryText{
+  color: #ffffff;
+}
+.secondary{
+  background-color: #f2f2f2;
+}
+.secondaryText{
+  color: #000000;
+}
+.bg{
+  background-color: #edf4f2;
+}
+.bgsec{
+  background-color: #fcfcfc;
+}
